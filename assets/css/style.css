@@ -1,0 +1,39 @@
+* {
+    background-color: var(--primary-color);
+    color: var(--quaternary-color);
+}
+
+:root {
+    --primary-color: #171717;
+    --secondary-color: #444444;
+    --tertiary-color: #DA0037;
+    --quaternary-color: #EDEDED;
+}
+
+.high-scores {
+    color: var(--tertiary-color);
+    text-decoration: none;
+}
+
+.time {
+    color: var(--tertiary-color);
+}
+
+main ul {
+    list-style: none;
+}
+
+.btn {
+    background-color: var(--secondary-color);
+    color: var(--quaternary-color);
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 12px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: var(--tertiary-color);
+}
