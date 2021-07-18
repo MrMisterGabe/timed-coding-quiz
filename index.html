@@ -11,22 +11,40 @@
     <header>
         <nav>
             <a href="#" class="high-scores">View High Scores</a>
-            <p>Time remaining: <span class="time" id="time-remaining">goes here</span></p>
+            <p>Time remaining: <span class="time" id="time-remaining">100</span></p>
         </nav>
     </header>
+
+    <section id="quiz-start">
+        <h2 class="question" id="quiz-prompt">Test your Lord of the Rings Knowledge!</h2>
+        <!-- START QUIZ BUTTON -->
+        <button class="btn" id="button-start">
+            START QUIZ
+        </button>
+    </section>
             
     <main id="quiz">
-        <h2 class="question">Question goes here</h2>
+        <!-- Section to load Question Prompt -->
+        <h2 class="question hide" id="question-prompt"></h2>
+        <!-- Section to load Answer Choices -->
         <ul class="answer-list">
             <li class="answer-choices">
-                <button class="btn" id="correct-answer">
-                    This is where the correct answer goes
+                <button class="btn hide" id="answer">
                 </button>
             </li>
 
             <li class="answer-choices">
-                <button class="btn" id="wrong-answer">
-                    All other answer choices go here
+                <button class="btn hide" id="answer">
+                </button>
+            </li>
+
+            <li class="answer-choices">
+                <button class="btn hide" id="answer">
+                </button>
+            </li>
+
+            <li class="answer-choices">
+                <button class="btn hide" id="answer">
                 </button>
             </li>
         </ul>

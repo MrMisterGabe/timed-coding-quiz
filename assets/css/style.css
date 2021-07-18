@@ -10,6 +10,23 @@
     --quaternary-color: #EDEDED;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+main ul {
+    list-style: none;
+}
+
 .high-scores {
     color: var(--tertiary-color);
     text-decoration: none;
@@ -17,10 +34,6 @@
 
 .time {
     color: var(--tertiary-color);
-}
-
-main ul {
-    list-style: none;
 }
 
 .btn {
@@ -36,4 +49,8 @@ main ul {
 
 .btn:hover {
     background-color: var(--tertiary-color);
+}
+
+.hide {
+    display: none;
 }
